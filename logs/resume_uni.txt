@@ -1,0 +1,32 @@
+=== condition A (3 graines)
+[uni     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.229) | R² droite 0.999
+   acc_meme_forme 1.000
+   acc_interforme 1.000
+   sonde uni_disque 1.000
+   sonde uni_carre 1.000
+   sonde uni_triangle 1.000
+sonde « quantité de blanc » R² : entraîné 0.595 | non entraîné 0.541
+=== condition B (3 graines)
+[uni     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.228) | R² droite 0.999
+   acc_meme_forme 1.000
+   acc_interforme 1.000
+   sonde uni_disque 1.000
+   sonde uni_carre 1.000
+   sonde uni_triangle 1.000
+sonde « quantité de blanc » R² : entraîné 0.514 | non entraîné 0.541
+=== condition B2s (3 graines)
+[uni     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.229) | R² droite 0.999
+   acc_meme_forme 1.000
+   acc_interforme 1.000
+   sonde uni_disque 1.000
+   sonde uni_carre 1.000
+   sonde uni_triangle 1.000
+sonde « quantité de blanc » R² : entraîné 0.553 | non entraîné 0.541
+=== condition Ase (3 graines)
+[uni     ] comparaison 0.889±0.000 | inégales jamais vues 1.000 | égal (moy.) 0.000 | 6=6 0.000±0.000 | transitivité 1.0000 | sonde 0.999±0.001 (non entraîné 0.229) | R² droite 0.997
+   acc_meme_forme 0.889
+   acc_interforme 0.889
+   sonde uni_disque 0.999
+   sonde uni_carre 1.000
+   sonde uni_triangle 0.998
+sonde « quantité de blanc » R² : entraîné 0.531 | non entraîné 0.541

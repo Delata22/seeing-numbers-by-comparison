@@ -1,0 +1,1869 @@
+{
+ "data": "mix",
+ "condition": "B",
+ "seed": 2,
+ "duree_s": 15.816593885421753,
+ "entraine": {
+  "sondes": {
+   "mix": {
+    "classif_par_n": {
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "7": 1.0,
+     "8": 1.0,
+     "9": 1.0
+    },
+    "classif": 1.0,
+    "regression_arrondie": 1.0,
+    "regression_r2": 0.9995070744252248,
+    "regression_moyenne_par_n": {
+     "1": 0.9876898527145386,
+     "2": 2.007845640182495,
+     "3": 3.000126361846924,
+     "4": 4.000429153442383,
+     "5": 4.9884490966796875,
+     "6": 5.986872673034668,
+     "7": 6.9980316162109375,
+     "8": 8.001982688903809,
+     "9": 9.0038423538208
+    }
+   }
+  },
+  "sonde_blanc_r2": 0.6878070831298828,
+  "mix_images_neuves": {
+   "paires": {
+    "1-1": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "1-2": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "1-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "1-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "1-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2,
+     "retenue": false
+    },
+    "1-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.16666666666666666,
+     "retenue": false
+    },
+    "1-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.14285714285714285,
+     "retenue": false
+    },
+    "1-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.125,
+     "retenue": false
+    },
+    "1-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.1111111111111111,
+     "retenue": false
+    },
+    "2-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "2-2": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "2-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "2-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "2-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4,
+     "retenue": false
+    },
+    "2-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "2-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2857142857142857,
+     "retenue": true
+    },
+    "2-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "2-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2222222222222222,
+     "retenue": false
+    },
+    "3-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "3-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "3-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "3-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "3-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6,
+     "retenue": false
+    },
+    "3-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": true
+    },
+    "3-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.42857142857142855,
+     "retenue": false
+    },
+    "3-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.375,
+     "retenue": false
+    },
+    "3-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "4-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "4-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "4-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "4-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "4-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8,
+     "retenue": false
+    },
+    "4-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "4-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5714285714285714,
+     "retenue": false
+    },
+    "4-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "4-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4444444444444444,
+     "retenue": false
+    },
+    "5-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2,
+     "retenue": false
+    },
+    "5-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4,
+     "retenue": false
+    },
+    "5-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6,
+     "retenue": false
+    },
+    "5-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8,
+     "retenue": false
+    },
+    "5-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "5-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8333333333333334,
+     "retenue": false
+    },
+    "5-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7142857142857143,
+     "retenue": false
+    },
+    "5-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.625,
+     "retenue": true
+    },
+    "5-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5555555555555556,
+     "retenue": false
+    },
+    "6-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.16666666666666666,
+     "retenue": false
+    },
+    "6-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "6-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": true
+    },
+    "6-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "6-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8333333333333334,
+     "retenue": false
+    },
+    "6-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": true
+    },
+    "6-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8571428571428571,
+     "retenue": false
+    },
+    "6-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "6-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "7-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.14285714285714285,
+     "retenue": false
+    },
+    "7-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2857142857142857,
+     "retenue": true
+    },
+    "7-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.42857142857142855,
+     "retenue": false
+    },
+    "7-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5714285714285714,
+     "retenue": false
+    },
+    "7-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7142857142857143,
+     "retenue": false
+    },
+    "7-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8571428571428571,
+     "retenue": false
+    },
+    "7-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "7-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.875,
+     "retenue": false
+    },
+    "7-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7777777777777778,
+     "retenue": false
+    },
+    "8-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.125,
+     "retenue": false
+    },
+    "8-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "8-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.375,
+     "retenue": false
+    },
+    "8-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "8-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.625,
+     "retenue": true
+    },
+    "8-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "8-7": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.875,
+     "retenue": false
+    },
+    "8-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "8-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8888888888888888,
+     "retenue": false
+    },
+    "9-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.1111111111111111,
+     "retenue": false
+    },
+    "9-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2222222222222222,
+     "retenue": false
+    },
+    "9-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "9-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4444444444444444,
+     "retenue": false
+    },
+    "9-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5555555555555556,
+     "retenue": false
+    },
+    "9-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "9-7": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7777777777777778,
+     "retenue": false
+    },
+    "9-8": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8888888888888888,
+     "retenue": false
+    },
+    "9-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    }
+   },
+   "transitivite": {
+    "coherence": 1.0,
+    "coherence_avec_paire_retenue": 1.0
+   }
+  },
+  "mix": {
+   "paires": {
+    "1-1": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "1-2": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "1-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "1-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "1-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2,
+     "retenue": false
+    },
+    "1-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.16666666666666666,
+     "retenue": false
+    },
+    "1-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.14285714285714285,
+     "retenue": false
+    },
+    "1-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.125,
+     "retenue": false
+    },
+    "1-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.1111111111111111,
+     "retenue": false
+    },
+    "2-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "2-2": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "2-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "2-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "2-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4,
+     "retenue": false
+    },
+    "2-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "2-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2857142857142857,
+     "retenue": true
+    },
+    "2-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "2-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2222222222222222,
+     "retenue": false
+    },
+    "3-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "3-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "3-3": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "3-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "3-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6,
+     "retenue": false
+    },
+    "3-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": true
+    },
+    "3-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.42857142857142855,
+     "retenue": false
+    },
+    "3-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.375,
+     "retenue": false
+    },
+    "3-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "4-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "4-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "4-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "4-4": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "4-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8,
+     "retenue": false
+    },
+    "4-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "4-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5714285714285714,
+     "retenue": false
+    },
+    "4-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "4-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4444444444444444,
+     "retenue": false
+    },
+    "5-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2,
+     "retenue": false
+    },
+    "5-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4,
+     "retenue": false
+    },
+    "5-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6,
+     "retenue": false
+    },
+    "5-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8,
+     "retenue": false
+    },
+    "5-5": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "5-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8333333333333334,
+     "retenue": false
+    },
+    "5-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7142857142857143,
+     "retenue": false
+    },
+    "5-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.625,
+     "retenue": true
+    },
+    "5-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5555555555555556,
+     "retenue": false
+    },
+    "6-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.16666666666666666,
+     "retenue": false
+    },
+    "6-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "6-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": true
+    },
+    "6-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "6-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8333333333333334,
+     "retenue": false
+    },
+    "6-6": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": true
+    },
+    "6-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8571428571428571,
+     "retenue": false
+    },
+    "6-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "6-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "7-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.14285714285714285,
+     "retenue": false
+    },
+    "7-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2857142857142857,
+     "retenue": true
+    },
+    "7-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.42857142857142855,
+     "retenue": false
+    },
+    "7-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5714285714285714,
+     "retenue": false
+    },
+    "7-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7142857142857143,
+     "retenue": false
+    },
+    "7-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8571428571428571,
+     "retenue": false
+    },
+    "7-7": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "7-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.875,
+     "retenue": false
+    },
+    "7-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7777777777777778,
+     "retenue": false
+    },
+    "8-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.125,
+     "retenue": false
+    },
+    "8-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.25,
+     "retenue": false
+    },
+    "8-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.375,
+     "retenue": false
+    },
+    "8-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5,
+     "retenue": false
+    },
+    "8-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.625,
+     "retenue": true
+    },
+    "8-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.75,
+     "retenue": false
+    },
+    "8-7": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.875,
+     "retenue": false
+    },
+    "8-8": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    },
+    "8-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8888888888888888,
+     "retenue": false
+    },
+    "9-1": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.1111111111111111,
+     "retenue": false
+    },
+    "9-2": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.2222222222222222,
+     "retenue": false
+    },
+    "9-3": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.3333333333333333,
+     "retenue": false
+    },
+    "9-4": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.4444444444444444,
+     "retenue": false
+    },
+    "9-5": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.5555555555555556,
+     "retenue": false
+    },
+    "9-6": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.6666666666666666,
+     "retenue": false
+    },
+    "9-7": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.7777777777777778,
+     "retenue": false
+    },
+    "9-8": {
+     "acc": 1.0,
+     "repart": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 0.8888888888888888,
+     "retenue": false
+    },
+    "9-9": {
+     "acc": 1.0,
+     "repart": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "symetrie": 1.0,
+     "ratio": 1.0,
+     "retenue": false
+    }
+   },
+   "transitivite": {
+    "coherence": 1.0,
+    "coherence_avec_paire_retenue": 1.0
+   }
+  }
+ },
+ "trajectoire": {},
+ "non_entraine": {
+  "sondes": {
+   "mix": {
+    "classif_par_n": {
+     "1": 0.5728952772073922,
+     "2": 0.2552742616033755,
+     "3": 0.1489795918367347,
+     "4": 0.13555992141453832,
+     "5": 0.11928429423459244,
+     "6": 0.1067193675889328,
+     "7": 0.16765285996055226,
+     "8": 0.16824196597353497,
+     "9": 0.40404040404040403
+    },
+    "classif": 0.2288888888888889,
+    "regression_arrondie": 0.19511111111111112,
+    "regression_r2": 0.423868508689468,
+    "regression_moyenne_par_n": {
+     "1": 3.1292014122009277,
+     "2": 3.692983388900757,
+     "3": 4.066384315490723,
+     "4": 4.663729667663574,
+     "5": 5.131509780883789,
+     "6": 5.591437339782715,
+     "7": 5.942325592041016,
+     "8": 6.24326753616333,
+     "9": 6.614800453186035
+    }
+   }
+  },
+  "sonde_blanc_r2": 0.5030757188796997
+ }
+}

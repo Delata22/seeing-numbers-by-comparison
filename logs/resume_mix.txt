@@ -1,0 +1,12 @@
+=== condition A (3 graines)
+[mix     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.222) | R² droite 1.000
+sonde « quantité de blanc » R² : entraîné 0.509 | non entraîné 0.538
+=== condition B (3 graines)
+[mix     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.222) | R² droite 1.000
+sonde « quantité de blanc » R² : entraîné 0.562 | non entraîné 0.538
+=== condition B2s (3 graines)
+[mix     ] comparaison 1.000±0.000 | inégales jamais vues 1.000 | égal (moy.) 1.000 | 6=6 1.000±0.000 | transitivité 1.0000 | sonde 1.000±0.000 (non entraîné 0.222) | R² droite 1.000
+sonde « quantité de blanc » R² : entraîné 0.57 | non entraîné 0.538
+=== condition Ase (3 graines)
+[mix     ] comparaison 0.889±0.000 | inégales jamais vues 1.000 | égal (moy.) 0.000 | 6=6 0.000±0.000 | transitivité 1.0000 | sonde 0.999±0.000 (non entraîné 0.222) | R² droite 0.998
+sonde « quantité de blanc » R² : entraîné 0.603 | non entraîné 0.538
