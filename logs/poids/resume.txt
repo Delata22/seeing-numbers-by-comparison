@@ -1,0 +1,117 @@
+Analyse des modèles plage 1-N (×1/8, z = 1, tête 128). Moyenne [min-max] sur 3 graines.
+Lecture = z converti en objets par la droite ajustée sur 1..N (taille fixe).
+
+=== AVEC « égal » ===
+N= 3 | vide lu 0.01 [-0.01-0.01] | un objet n'importe où : 1.04 [1.03-1.04] (écart selon la position 0.05 [0.05-0.06])
+      taille (r=1..10) : 0.27 0.48 0.67 0.85 0.96 1.04 1.05 1.02 0.95 0.83
+      2 disques, distance 3..20 : 1.05 1.09 1.15 1.28 1.52 1.87 2.04 2.08 2.07
+      cases 4x4 : R² contribution~objets 0.55 [0.55-0.56], pente 0.49 [0.48-0.51], variation des pentes entre cases 0.24 [0.23-0.24]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.1 10.0 11.0 12.0 13.0 13.9 14.9 15.8 16.7 17.5 18.4 19.2
+      étalement n=1..20 : 0.05 0.07 0.08 0.09 0.12 0.13 0.14 0.17 0.18 0.18 0.20 0.21 0.23 0.23 0.26 0.27 0.27 0.29 0.29 0.30
+      étalement ~ n^0.58 sur 1..6  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 5 | vide lu 0.01 [0.00-0.01] | un objet n'importe où : 1.03 [1.02-1.04] (écart selon la position 0.04 [0.04-0.05])
+      taille (r=1..10) : 0.21 0.43 0.65 0.84 0.96 1.03 1.01 1.00 0.97 0.87
+      2 disques, distance 3..20 : 1.02 1.05 1.12 1.26 1.53 1.92 2.05 2.06 2.06
+      cases 4x4 : R² contribution~objets 0.56 [0.55-0.58], pente 0.49 [0.48-0.50], variation des pentes entre cases 0.23 [0.22-0.25]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 13.9 14.9 15.9 16.9 17.8 18.7 19.6
+      étalement n=1..20 : 0.04 0.05 0.07 0.07 0.09 0.10 0.10 0.12 0.13 0.13 0.15 0.16 0.16 0.16 0.18 0.19 0.21 0.22 0.22 0.25
+      étalement ~ n^0.54 sur 1..8  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 7 | vide lu -0.01 [-0.01-0.00] | un objet n'importe où : 1.01 [1.01-1.01] (écart selon la position 0.04 [0.03-0.05])
+      taille (r=1..10) : 0.22 0.43 0.66 0.87 0.98 1.02 1.00 0.99 0.94 0.82
+      2 disques, distance 3..20 : 1.01 1.04 1.11 1.25 1.53 1.93 2.04 2.04 2.03
+      cases 4x4 : R² contribution~objets 0.60 [0.57-0.62], pente 0.50 [0.49-0.51], variation des pentes entre cases 0.22 [0.21-0.24]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 13.9 14.9 15.9 16.9 17.8 18.8 19.7
+      étalement n=1..20 : 0.04 0.05 0.06 0.07 0.08 0.08 0.09 0.10 0.11 0.11 0.12 0.14 0.13 0.15 0.16 0.18 0.18 0.19 0.19 0.22
+      étalement ~ n^0.51 sur 1..10  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 9 | vide lu 0.00 [-0.02-0.02] | un objet n'importe où : 1.00 [0.99-1.02] (écart selon la position 0.03 [0.03-0.04])
+      taille (r=1..10) : 0.18 0.44 0.71 0.93 1.01 1.00 0.99 0.97 0.92 0.85
+      2 disques, distance 3..20 : 1.00 1.03 1.10 1.23 1.53 1.93 2.01 2.01 2.01
+      cases 4x4 : R² contribution~objets 0.61 [0.59-0.63], pente 0.51 [0.51-0.51], variation des pentes entre cases 0.20 [0.19-0.21]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 13.9 15.0 15.9 17.0 17.9 18.9 19.9
+      étalement n=1..20 : 0.03 0.04 0.05 0.06 0.06 0.07 0.08 0.09 0.09 0.10 0.10 0.11 0.11 0.12 0.13 0.14 0.15 0.15 0.15 0.17
+      étalement ~ n^0.52 sur 1..12  (0.5 = somme de détections bruitées, 1 = Weber)
+N=12 | vide lu 0.02 [-0.01-0.06] | un objet n'importe où : 1.02 [1.00-1.05] (écart selon la position 0.03 [0.03-0.03])
+      taille (r=1..10) : 0.35 0.65 0.88 1.02 1.03 1.01 1.00 0.96 0.91 0.84
+      2 disques, distance 3..20 : 1.01 1.04 1.12 1.26 1.57 1.95 2.01 2.01 2.01
+      cases 4x4 : R² contribution~objets 0.64 [0.61-0.66], pente 0.53 [0.52-0.53], variation des pentes entre cases 0.19 [0.17-0.21]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 18.0 19.0 20.0
+      étalement n=1..20 : 0.03 0.04 0.05 0.05 0.06 0.07 0.07 0.08 0.08 0.09 0.09 0.10 0.10 0.11 0.11 0.12 0.13 0.13 0.13 0.15
+      étalement ~ n^0.50 sur 1..15  (0.5 = somme de détections bruitées, 1 = Weber)
+N=15 | vide lu 0.02 [-0.04-0.08] | un objet n'importe où : 1.02 [0.97-1.07] (écart selon la position 0.03 [0.03-0.03])
+      taille (r=1..10) : 0.43 0.76 0.97 1.03 1.03 1.02 1.00 0.95 0.91 0.83
+      2 disques, distance 3..20 : 1.01 1.04 1.13 1.26 1.57 1.97 2.03 2.03 2.02
+      cases 4x4 : R² contribution~objets 0.66 [0.65-0.67], pente 0.55 [0.54-0.55], variation des pentes entre cases 0.17 [0.15-0.19]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 18.0 19.0 20.0
+      étalement n=1..20 : 0.03 0.04 0.05 0.06 0.06 0.07 0.07 0.08 0.08 0.09 0.10 0.10 0.10 0.11 0.11 0.12 0.13 0.14 0.14 0.14
+      étalement ~ n^0.50 sur 1..18  (0.5 = somme de détections bruitées, 1 = Weber)
+
+=== SANS « égal » ===
+N= 3 | vide lu -0.01 [-0.05-0.04] | un objet n'importe où : 1.05 [1.02-1.07] (écart selon la position 0.11 [0.11-0.12])
+      taille (r=1..10) : 0.29 0.49 0.66 0.80 0.93 1.04 1.10 1.02 0.86 0.68
+      2 disques, distance 3..20 : 1.09 1.13 1.22 1.33 1.53 1.79 1.97 2.05 2.10
+      cases 4x4 : R² contribution~objets 0.41 [0.41-0.42], pente 0.38 [0.37-0.41], variation des pentes entre cases 0.32 [0.31-0.33]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 5.9 6.8 7.7 8.6 9.4 10.3 11.1 11.9 12.6 13.4 14.1 14.7 15.3 15.9 16.4
+      étalement n=1..20 : 0.09 0.13 0.18 0.20 0.23 0.25 0.29 0.28 0.32 0.32 0.34 0.36 0.36 0.36 0.41 0.40 0.41 0.40 0.40 0.40
+      étalement ~ n^0.61 sur 1..6  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 5 | vide lu -0.02 [-0.07-0.06] | un objet n'importe où : 1.03 [0.99-1.06] (écart selon la position 0.11 [0.10-0.11])
+      taille (r=1..10) : 0.30 0.51 0.68 0.83 0.95 1.04 1.01 0.94 0.86 0.73
+      2 disques, distance 3..20 : 1.04 1.08 1.16 1.28 1.53 1.83 2.00 2.08 2.11
+      cases 4x4 : R² contribution~objets 0.46 [0.43-0.50], pente 0.41 [0.37-0.47], variation des pentes entre cases 0.29 [0.26-0.31]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 6.9 7.9 8.8 9.7 10.6 11.5 12.4 13.2 14.0 14.8 15.5 16.2 16.8 17.5
+      étalement n=1..20 : 0.08 0.11 0.15 0.17 0.21 0.23 0.24 0.27 0.29 0.29 0.32 0.33 0.33 0.34 0.37 0.39 0.40 0.40 0.41 0.43
+      étalement ~ n^0.58 sur 1..8  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 7 | vide lu -0.01 [-0.04-0.04] | un objet n'importe où : 1.02 [0.99-1.03] (écart selon la position 0.08 [0.08-0.09])
+      taille (r=1..10) : 0.26 0.46 0.65 0.83 0.94 1.03 0.99 0.93 0.87 0.75
+      2 disques, distance 3..20 : 1.03 1.07 1.15 1.28 1.56 1.89 2.04 2.07 2.08
+      cases 4x4 : R² contribution~objets 0.47 [0.46-0.48], pente 0.41 [0.40-0.43], variation des pentes entre cases 0.31 [0.29-0.33]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 7.9 8.9 9.9 10.9 11.8 12.8 13.7 14.6 15.5 16.4 17.3 18.1 18.9
+      étalement n=1..20 : 0.06 0.09 0.12 0.13 0.15 0.17 0.18 0.20 0.22 0.23 0.25 0.25 0.26 0.27 0.31 0.32 0.33 0.31 0.34 0.36
+      étalement ~ n^0.55 sur 1..10  (0.5 = somme de détections bruitées, 1 = Weber)
+N= 9 | vide lu 0.01 [-0.04-0.07] | un objet n'importe où : 1.01 [0.97-1.03] (écart selon la position 0.07 [0.06-0.08])
+      taille (r=1..10) : 0.30 0.51 0.72 0.87 0.98 1.01 0.96 0.92 0.86 0.74
+      2 disques, distance 3..20 : 1.00 1.04 1.12 1.25 1.52 1.86 2.01 2.03 2.02
+      cases 4x4 : R² contribution~objets 0.50 [0.49-0.50], pente 0.43 [0.41-0.44], variation des pentes entre cases 0.29 [0.28-0.30]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 12.9 13.9 14.9 15.8 16.8 17.7 18.5 19.4
+      étalement n=1..20 : 0.06 0.08 0.11 0.11 0.14 0.15 0.17 0.19 0.21 0.21 0.23 0.24 0.25 0.25 0.29 0.32 0.33 0.32 0.34 0.39
+      étalement ~ n^0.58 sur 1..12  (0.5 = somme de détections bruitées, 1 = Weber)
+N=12 | vide lu -0.00 [-0.07-0.10] | un objet n'importe où : 0.99 [0.96-1.02] (écart selon la position 0.08 [0.07-0.09])
+      taille (r=1..10) : 0.39 0.63 0.84 0.97 1.01 1.00 0.97 0.94 0.89 0.81
+      2 disques, distance 3..20 : 1.00 1.03 1.12 1.24 1.52 1.85 1.99 2.00 2.00
+      cases 4x4 : R² contribution~objets 0.50 [0.44-0.54], pente 0.43 [0.40-0.45], variation des pentes entre cases 0.28 [0.27-0.30]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 12.9 13.9 14.9 15.8 16.8 17.7 18.6 19.5
+      étalement n=1..20 : 0.07 0.10 0.12 0.12 0.15 0.16 0.17 0.19 0.19 0.21 0.23 0.23 0.22 0.24 0.27 0.28 0.29 0.29 0.32 0.35
+      étalement ~ n^0.49 sur 1..15  (0.5 = somme de détections bruitées, 1 = Weber)
+N=15 | vide lu 0.08 [-0.07-0.26] | un objet n'importe où : 1.04 [0.93-1.16] (écart selon la position 0.07 [0.06-0.07])
+      taille (r=1..10) : 0.50 0.78 0.99 1.08 1.07 1.04 1.03 1.02 1.01 0.99
+      2 disques, distance 3..20 : 1.04 1.09 1.18 1.31 1.55 1.92 2.04 2.03 2.01
+      cases 4x4 : R² contribution~objets 0.53 [0.49-0.56], pente 0.45 [0.43-0.47], variation des pentes entre cases 0.25 [0.22-0.29]
+      lecture n=1..20 : 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 17.9 18.9 19.8
+      étalement n=1..20 : 0.07 0.09 0.11 0.12 0.14 0.16 0.17 0.19 0.20 0.20 0.22 0.21 0.24 0.23 0.25 0.27 0.27 0.28 0.29 0.32
+      étalement ~ n^0.50 sur 1..18  (0.5 = somme de détections bruitées, 1 = Weber)
+
+=== Filtres de la 1re couche (BN repliée) : corrélation moyenne après appariement ===
+        eg3   eg5   eg7   eg9  eg12  eg15   se3   se5   se7   se9  se12  se15
+  eg3  1.00  0.99  0.98  0.94  0.91  0.87  0.98  0.99  0.97  0.96  0.94  0.94
+  eg5  0.99  1.00  0.99  0.95  0.93  0.86  0.97  0.98  0.97  0.96  0.93  0.93
+  eg7  0.98  0.99  1.00  0.95  0.92  0.87  0.97  0.97  0.97  0.96  0.93  0.94
+  eg9  0.94  0.95  0.95  1.00  0.96  0.94  0.92  0.93  0.92  0.91  0.90  0.94
+ eg12  0.91  0.93  0.92  0.96  1.00  0.90  0.90  0.92  0.91  0.91  0.90  0.91
+ eg15  0.87  0.86  0.87  0.94  0.90  1.00  0.84  0.86  0.85  0.85  0.85  0.90
+  se3  0.98  0.97  0.97  0.92  0.90  0.84  1.00  0.99  0.99  0.99  0.96  0.94
+  se5  0.99  0.98  0.97  0.93  0.92  0.86  0.99  1.00  0.98  0.99  0.97  0.95
+  se7  0.97  0.97  0.97  0.92  0.91  0.85  0.99  0.98  1.00  0.99  0.97  0.95
+  se9  0.96  0.96  0.96  0.91  0.91  0.85  0.99  0.99  0.99  1.00  0.99  0.96
+ se12  0.94  0.93  0.93  0.90  0.90  0.85  0.96  0.97  0.97  0.99  1.00  0.97
+ se15  0.94  0.93  0.94  0.94  0.91  0.90  0.94  0.95  0.95  0.96  0.97  1.00
+eg3 : somme -4.53 centre -1.43 pourtour -0.39 biais +0.24 | somme -4.39 centre -1.97 pourtour -0.30 biais +0.25 | somme +5.32 centre +0.18 pourtour +0.64 biais -0.18 | somme -4.98 centre +0.62 pourtour -0.70 biais +0.26
+eg5 : somme -4.18 centre -1.23 pourtour -0.37 biais +0.22 | somme -4.15 centre -1.96 pourtour -0.27 biais +0.24 | somme +5.27 centre +0.26 pourtour +0.63 biais -0.23 | somme -4.97 centre +0.59 pourtour -0.69 biais +0.33
+eg7 : somme -4.06 centre -1.24 pourtour -0.35 biais +0.21 | somme -3.93 centre -1.69 pourtour -0.28 biais +0.25 | somme +5.08 centre +0.29 pourtour +0.60 biais -0.23 | somme -4.74 centre +0.50 pourtour -0.65 biais +0.32
+eg9 : somme -3.62 centre -0.91 pourtour -0.34 biais +0.19 | somme -3.62 centre -1.57 pourtour -0.26 biais +0.25 | somme +5.07 centre +0.48 pourtour +0.57 biais -0.37 | somme -4.72 centre +0.25 pourtour -0.62 biais +0.41
+eg12 : somme -3.49 centre -0.72 pourtour -0.35 biais +0.17 | somme -3.22 centre -1.60 pourtour -0.20 biais +0.24 | somme +4.83 centre +0.54 pourtour +0.54 biais -0.24 | somme -4.63 centre +0.27 pourtour -0.61 biais +0.46
+eg15 : somme -3.12 centre -0.59 pourtour -0.32 biais +0.23 | somme -3.17 centre -1.07 pourtour -0.26 biais +0.29 | somme +4.23 centre +0.36 pourtour +0.48 biais -0.27 | somme -4.36 centre +0.20 pourtour -0.57 biais +0.50
+se3 : somme -4.56 centre -1.63 pourtour -0.37 biais +0.19 | somme -4.35 centre -2.33 pourtour -0.25 biais +0.25 | somme +4.81 centre -0.19 pourtour +0.63 biais -0.19 | somme -5.11 centre +1.43 pourtour -0.82 biais +0.26
+se5 : somme -4.49 centre -1.45 pourtour -0.38 biais +0.27 | somme -3.68 centre -2.19 pourtour -0.19 biais +0.24 | somme +4.52 centre -0.16 pourtour +0.58 biais -0.21 | somme -4.98 centre +0.97 pourtour -0.74 biais +0.30
+se7 : somme -4.17 centre -1.40 pourtour -0.35 biais +0.20 | somme -3.38 centre -2.19 pourtour -0.15 biais +0.24 | somme +4.55 centre +0.07 pourtour +0.56 biais -0.22 | somme -4.85 centre +1.18 pourtour -0.75 biais +0.32
+se9 : somme -4.00 centre -1.33 pourtour -0.33 biais +0.22 | somme -3.31 centre -1.89 pourtour -0.18 biais +0.24 | somme +4.28 centre -0.07 pourtour +0.54 biais -0.25 | somme -4.72 centre +1.23 pourtour -0.74 biais +0.33
+se12 : somme -3.71 centre -1.19 pourtour -0.31 biais +0.23 | somme -2.87 centre -1.35 pourtour -0.19 biais +0.24 | somme +3.69 centre -0.35 pourtour +0.50 biais -0.26 | somme -4.53 centre +1.15 pourtour -0.71 biais +0.36
+se15 : somme -3.54 centre -0.99 pourtour -0.32 biais +0.20 | somme -2.65 centre -1.03 pourtour -0.20 biais +0.21 | somme +3.80 centre -0.15 pourtour +0.49 biais -0.20 | somme -4.30 centre +0.66 pourtour -0.62 biais +0.40
