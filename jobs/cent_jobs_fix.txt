@@ -1,0 +1,8 @@
+inv 0
+inv2 0
+uniforme 1
+inv 1
+inv2 1
+uniforme 2
+inv 2
+inv2 2
