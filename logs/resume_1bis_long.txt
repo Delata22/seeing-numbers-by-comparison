@@ -1,0 +1,36 @@
+D3_general_seed0
+    n=25 | début : image 24.7, somme 24.9, = 0.97 | 3000 derniers pas (moy. de 6) : image 24.78, somme 25.23, = 0.81 [0.37-0.98]
+    n=28 | début : image 27.2, somme 27.9, = 0.55 | 3000 derniers pas (moy. de 6) : image 27.44, somme 28.28, = 0.28 [0.01-0.55]
+    n=30 | début : image 28.8, somme 29.9, = 0.07 | 3000 derniers pas (moy. de 6) : image 29.12, somme 30.31, = 0.05 [0.00-0.15]
+    final (mesure complète) image = somme 21/25/28/30 : 0.99 / 0.88 / 0.29 / 0.02 | dans la plage 20 : 0.99 | somme/somme 61-100 = 1.00
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:28.8 1.5k:28.9 3k:28.8 4.5k:29.1 6k:29.0 7.5k:29.2 9k:29.1
+D3_general_seed1
+    n=25 | début : image 24.6, somme 25.2, = 0.74 | 3000 derniers pas (moy. de 6) : image 24.75, somme 25.09, = 0.92 [0.77-1.00]
+    n=28 | début : image 27.1, somme 28.2, = 0.13 | 3000 derniers pas (moy. de 6) : image 27.42, somme 28.12, = 0.54 [0.28-0.84]
+    n=30 | début : image 28.7, somme 30.3, = 0.01 | 3000 derniers pas (moy. de 6) : image 29.11, somme 30.13, = 0.21 [0.02-0.54]
+    final (mesure complète) image = somme 21/25/28/30 : 1.00 / 1.00 / 0.88 / 0.55 | dans la plage 20 : 1.00 | somme/somme 61-100 = 1.00
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:28.7 1.5k:28.9 3k:29.0 4.5k:29.1 6k:29.0 7.5k:29.2 9k:29.1
+D3_general_seed2
+    n=25 | début : image 24.8, somme 24.9, = 0.98 | 3000 derniers pas (moy. de 6) : image 24.83, somme 25.07, = 0.94 [0.77-1.00]
+    n=28 | début : image 27.4, somme 28.0, = 0.76 | 3000 derniers pas (moy. de 6) : image 27.53, somme 28.12, = 0.60 [0.24-0.84]
+    n=30 | début : image 29.0, somme 30.0, = 0.33 | 3000 derniers pas (moy. de 6) : image 29.23, somme 30.13, = 0.28 [0.03-0.55]
+    final (mesure complète) image = somme 21/25/28/30 : 1.00 / 0.98 / 0.79 / 0.36 | dans la plage 20 : 1.00 | somme/somme 61-100 = 1.00
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:29.0 1.5k:29.0 3k:29.0 4.5k:29.0 6k:29.1 7.5k:29.1 9k:29.3
+D9_general_seed0
+    n=25 | début : image 24.6, somme 24.5, = 0.99 | 3000 derniers pas (moy. de 6) : image 24.68, somme 25.07, = 0.81 [0.26-1.00]
+    n=28 | début : image 27.1, somme 27.5, = 0.95 | 3000 derniers pas (moy. de 6) : image 27.31, somme 28.08, = 0.52 [0.01-0.93]
+    n=30 | début : image 28.6, somme 29.4, = 0.73 | 3000 derniers pas (moy. de 6) : image 28.91, somme 30.09, = 0.16 [0.00-0.42]
+    final (mesure complète) image = somme 21/25/28/30 : 1.00 / 0.99 / 0.88 / 0.41 | dans la plage 20 : 0.99 | somme/somme 61-100 = 0.99
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:28.6 1.5k:28.6 3k:28.6 4.5k:28.7 6k:29.2 7.5k:28.7 9k:29.0
+D9_general_seed1
+    n=25 | début : image 24.3, somme 24.7, = 0.92 | 3000 derniers pas (moy. de 6) : image 24.65, somme 25.02, = 0.90 [0.82-0.97]
+    n=28 | début : image 26.8, somme 27.6, = 0.28 | 3000 derniers pas (moy. de 6) : image 27.28, somme 28.02, = 0.41 [0.20-0.63]
+    n=30 | début : image 28.3, somme 29.6, = 0.02 | 3000 derniers pas (moy. de 6) : image 28.88, somme 30.03, = 0.06 [0.01-0.15]
+    final (mesure complète) image = somme 21/25/28/30 : 0.99 / 0.97 / 0.52 / 0.10 | dans la plage 20 : 0.99 | somme/somme 61-100 = 1.00
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:28.3 1.5k:28.4 3k:28.5 4.5k:28.8 6k:28.8 7.5k:29.0 9k:29.0
+D9_general_seed2
+    n=25 | début : image 24.5, somme 25.1, = 0.76 | 3000 derniers pas (moy. de 6) : image 24.65, somme 25.09, = 0.73 [0.35-0.99]
+    n=28 | début : image 27.0, somme 28.1, = 0.10 | 3000 derniers pas (moy. de 6) : image 27.26, somme 28.10, = 0.31 [0.01-0.77]
+    n=30 | début : image 28.5, somme 30.1, = 0.00 | 3000 derniers pas (moy. de 6) : image 28.86, somme 30.11, = 0.06 [0.00-0.25]
+    final (mesure complète) image = somme 21/25/28/30 : 1.00 / 0.99 / 0.78 / 0.23 | dans la plage 20 : 0.99 | somme/somme 61-100 = 1.00
+    trajectoire de la lecture de l'image de 30 (tous les 1500 pas) : 0k:28.5 1.5k:28.8 3k:28.5 4.5k:28.7 6k:28.8 7.5k:28.8 9k:29.0
